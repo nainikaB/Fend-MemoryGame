@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	    <link rel="stylesheet" type="text/css" href="gamee.css">
+</head>
+<body>
+	<div class="container-fluid"> 
+		<div class="row">
+			<label class="labelClass pull-left" id="labelTimer">0s</label>
+			<label class="labelClass pull-left" id="movesbox">Moves : 0</label>
+			<button class="btn btn-success pull-right" id="restartBtn">Restart</Button>
+		</div>
+		<center>
+		<div class="borderBox">
+					<table><tr>
+						<td id="col1">
+							<div class="iconbox text-center" onclick="sendFa(this)"> </div>
+						</td>
+						<td id="col2">
+							<div class="iconbox text-center" onclick="sendFa(this)"> </div>
+						</td>
+						<td id="col3">
+							<div class="iconbox text-center" onclick="sendFa(this)"> </div>
+						</td>
+						<td id="col4">
+							<div class="iconbox text-center" onclick="sendFa(this)"> </div>
+						</td> 
+					</tr>
+					<tr>
+					<td id="col5">
+							<div class="iconbox text-center" onclick="sendFa(this)"> </div>
+						</td>
+						<td id="col6">
+							<div class="iconbox text-center" onclick="sendFa(this)"> </div>
+						</td>
+						<td id="col7">
+							<div class="iconbox text-center" onclick="sendFa(this)"> </div>
+						</td>
+						<td id="col8">
+							<div class="iconbox text-center" onclick="sendFa(this)"> </div>
+						</td>
+					</tr>
+					<tr>
+					<td id="col9">
+							<div class="iconbox text-center" onclick="sendFa(this)"> </div>
+						</td>
+						<td id="col10">
+							<div class="iconbox text-center" onclick="sendFa(this)"> </div>
+						</td>
+						<td id="col11">
+							<div class="iconbox text-center" onclick="sendFa(this)"> </div>
+						</td>
+						<td id="col12">
+							<div class="iconbox text-center" onclick="sendFa(this)"> </div>
+						</td>
+					</tr>
+					<tr>
+						<td id="col13">
+							<div class="iconbox text-center" onclick="sendFa(this)"> </div>
+						</td>
+						<td id="col14">
+							<div class="iconbox text-center" onclick="sendFa(this)"> </div>
+						</td>
+						<td id="col15">
+							<div class="iconbox text-center" onclick="sendFa(this)"> </div>
+						</td>
+						<td id="col16">
+							<div class="iconbox text-center" onclick="sendFa(this)"> </div>
+						</td> 
+					</tr>
+				</table>
+				</div>
+			</center>
+			<div class="row text-center">
+				<i class="fa fa-star" id="star1"></i><i id="star2" class="fa fa-star"></i><i id="star3" class="fa fa-star"></i><i class="fa fa-star" id="star4"></i><i id="star5" class="fa fa-star"></i>
+			</div>
+
+		</div>
+		<script src="gamejs.js"></script>
+</body>
+</html>
